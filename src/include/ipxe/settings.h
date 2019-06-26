@@ -470,6 +470,8 @@ busid_setting __setting ( SETTING_NETDEV, busid );
 extern const struct setting
 user_class_setting __setting ( SETTING_HOST_EXTRA, user-class );
 extern const struct setting
+client_id_setting __setting ( SETTING_HOST_EXTRA, client-id );
+extern const struct setting
 vendor_class_setting __setting ( SETTING_HOST_EXTRA, vendor-class );
 extern const struct setting
 manufacturer_setting __setting ( SETTING_HOST_EXTRA, manufacturer );

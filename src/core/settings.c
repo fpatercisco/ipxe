@@ -2438,6 +2438,15 @@ const struct setting user_class_setting __setting ( SETTING_HOST_EXTRA,
 	.type = &setting_type_string,
 };
 
+/** DHCP client-id setting */
+const struct setting client_id_setting __setting ( SETTING_HOST_EXTRA,
+						      client-id ) = {
+	.name = "client-id",
+	.description = "DHCP client ID",
+	.tag = DHCP_CLIENT_ID,
+	.type = &setting_type_string,
+};
+
 /** DHCP vendor class setting */
 const struct setting vendor_class_setting __setting ( SETTING_HOST_EXTRA,
 						      vendor-class ) = {

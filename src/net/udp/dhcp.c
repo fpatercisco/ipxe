@@ -102,6 +102,7 @@ static uint8_t dhcp_request_options_data[] = {
 /** Settings copied in to all DHCP requests */
 static const struct setting * dhcp_request_settings[] = {
 	&user_class_setting,
+	&client_id_setting,
 	&vendor_class_setting,
 };
 
