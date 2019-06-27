@@ -1,5 +1,9 @@
 iPXE README File
 
+This branch adds a new setting, client-id, that customizes DHCP option 61
+similarly to how [iPXE's user-class](https://ipxe.org/cfg/user-class) setting
+customizes option 77 (and vendor-class customizes option 60).
+
 Quick start guide:
 
    cd src
